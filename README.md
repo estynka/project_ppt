@@ -1,3 +1,3 @@
 # project_ppt
 
-homeworks to school
+homework to school
