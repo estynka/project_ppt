@@ -1,0 +1,8 @@
+﻿  Fce_Obdelnik.cpp
+D:\VSPJ\6-semestr\PPT\UKOLY\Obdélníky\Obdelniky\Obdelniky\Fce_Obdelnik.cpp(7,12): warning C4101: S: neodkazovaná lokální proměnná
+D:\VSPJ\6-semestr\PPT\UKOLY\Obdélníky\Obdelniky\Obdelniky\Fce_Obdelnik.cpp(7,9): warning C4101: o: neodkazovaná lokální proměnná
+  InOut_Obdelnik.cpp
+  Obdelniky.cpp
+  Tool_Obdelnik.cpp
+  Generování kódu...
+  Obdelniky.vcxproj -> D:\VSPJ\6-semestr\PPT\UKOLY\Obdélníky\Obdelniky\x64\Debug\Obdelniky.exe
