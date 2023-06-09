@@ -1,9 +1,9 @@
-
 import main.Seznam;
 import org.junit.*;
 import java.util.List;
 import java.util.ArrayList;
 import static org.junit.Assert.*;
+
 
 public class SeznamjUnitTest {
 

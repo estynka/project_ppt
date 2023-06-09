@@ -1,11 +1,10 @@
 import main.Slovnik;
+import java.util.Map;
+import java.util.HashMap;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
-
 import static org.junit.Assert.*;
+
 
 public class SlovnikjUnitTest {
 
@@ -23,7 +22,7 @@ public class SlovnikjUnitTest {
     }
     //overime, ze metoda pridava/ zmeni polozky
     @Test
-    public void addItem() {
+    public void test_addItem() {
         slovnik.addItem(mapa,113, "Ema");
         assertTrue(mapa.containsKey(113));
         
@@ -32,13 +31,13 @@ public class SlovnikjUnitTest {
     }
     //overime, ze metoda ziskava polozky
     @Test
-    public void getValue() {
+    public void test_getValue() {
         assertEquals("Eva", slovnik.getValue(mapa, 111));
     }
 
     //overime, ze metoda odstranuje polozky
     @Test
-    public void removeItem() {
+    public void test_removeItem() {
         slovnik.removeItem(mapa, 112);
         assertFalse(mapa.containsKey(112));
         assertNull(mapa.get(112));
@@ -46,7 +45,7 @@ public class SlovnikjUnitTest {
 
     //overime, ze metoda ziskava pocet polozek ve slovniku
     @Test
-    public void getSize() {
+    public void test_getSize() {
         int pocet = mapa.size();
         assertEquals(pocet, slovnik.getSize(mapa));
     }
